@@ -13,7 +13,11 @@ const bookRequestRoute = require("./routes/bookRequest");
 
 
 
-app.use(cors());
+app.use(cors({
+  origin: ["https://luminous-phoenix-9107fa.netlify.app/"], // frontend URL
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 
 app.use(express.json());
 
