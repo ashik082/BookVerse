@@ -47,36 +47,39 @@ BookVerse/
 ```bash
 git clone https://github.com/ashik082/BookVerse.git
 cd bookverse
+```
 
+---
 
 ###  2️⃣ Setup Backend
 ```bash
 cd backend
 npm install
 npm run dev   # or nodemon app.js
+```
 
 
-
-Create a .env file in backend/ with:
-
+### Create a .env file in backend/ with:
+```bash
 PORT=1000
 MONGO_URI=your_mongo_uri
 JWT_SECRET=your_secret
 GEMINI_API_KEY=your_api_key
+```
 
-3. Setup Frontend
+### 3️⃣ Setup Frontend
+```
 cd frontend
 npm install
 npm run dev
+```
 
-4. Deployment
+### 4️⃣ Deployment
+**Backend**: Render / Vercel
 
-Backend: Render / Vercel
+**Frontend**: Netlify
 
-Frontend: Netlify
+### 🌐 Live Demo
 
-🌐 Live Demo
-
-🔗 BookVerse Website
-
-🔗 Backend API
+🔗 [BookVerse Website](https://luminous-phoenix-9107fa.netlify.app/)  
+🔗 [Backend API](https://bookverse-0spt.onrender.com/api/v1) 
