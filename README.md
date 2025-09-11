@@ -1,29 +1,31 @@
-📚 BookVerse – Smart AI Book Suggestion Platform
+# 📚 BookVerse – Smart AI Book Suggestion Platform  
 
-BookVerse is an intelligent book discovery and management platform. It combines AI-powered recommendations with a full-featured online bookstore experience.
+BookVerse is an intelligent book discovery and management platform. It combines AI-powered recommendations with a full-featured online bookstore experience.  
 
-✨ Features
+---
 
-🤖 AI Recommendations – Personalized book suggestions using Gemini API.
+## ✨ Features  
 
-📖 Book Management – Browse, search, and request new books.
+- 🤖 **AI Recommendations** – Personalized book suggestions using Gemini API  
+- 📖 **Book Management** – Browse, search, and request new books  
+- ❤️ **Favorites & Cart** – Save your favorites and manage shopping cart  
+- 🛒 **Orders** – Place and track book orders  
+- 🔑 **Authentication** – Secure login & signup with JWT  
+- 📱 **Responsive UI** – Clean, modern design with React + Tailwind CSS  
 
-❤️ Favorites & Cart – Save your favorites and manage shopping cart.
+---
 
-🛒 Orders – Place and track book orders.
+## 🛠️ Tech Stack  
 
-🔑 Authentication – Secure login & signup with JWT.
+- **Frontend:** ⚛️ React, 🎨 Tailwind CSS, 🔗 Axios  
+- **Backend:** 🟢 Node.js, ⚡ Express.js, 🍃 MongoDB  
+- **AI Integration:** 🤖 Gemini API  
+- **Deployment:** 🚀 Render (backend) + 🌐 Netlify (frontend)  
 
-📱 Responsive UI – Clean, modern design with React + Tailwind CSS.
+---
 
-🛠️ Tech Stack
+## 📂 Project Structure  
 
-Frontend: React, Tailwind CSS, Axios
-Backend: Node.js, Express.js, MongoDB
-AI Integration: Gemini API
-Deployment: Render (backend) + Netlify (frontend)
-
-📂 Project Structure
 BookVerse/
 │── backend/        # Express + MongoDB API  
 │   ├── routes/     # API routes (users, books, orders, etc.)  
@@ -36,15 +38,23 @@ BookVerse/
 │  
 └── README.md       # Project documentation
 
-🚀 Getting Started
-1. Clone the repository
+
+---
+
+## 🚀 Getting Started  
+
+### 1️⃣ Clone the repository  
+```bash
 git clone https://github.com/ashik082/BookVerse.git
 cd bookverse
 
-2. Setup Backend
+
+###  2️⃣ Setup Backend
+```bash
 cd backend
 npm install
 npm run dev   # or nodemon app.js
+
 
 
 Create a .env file in backend/ with:
