@@ -14,7 +14,7 @@ const bookRequestRoute = require("./routes/bookRequest");
 
 
 app.use(cors({
-  origin: ["https://luminous-phoenix-9107fa.netlify.app"], // frontend URL
+  origin: ["https://bookverse-ashik.netlify.app/"], // frontend URL
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
