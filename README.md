@@ -81,5 +81,5 @@ npm run dev
 
 ### 🌐 Live Demo
 
-🔗 [BookVerse Website](https://luminous-phoenix-9107fa.netlify.app/)  
+🔗 [BookVerse Website](https://bookverse-ashik.netlify.app/)  
 🔗 [Backend API](https://bookverse-0spt.onrender.com/api/v1) 
