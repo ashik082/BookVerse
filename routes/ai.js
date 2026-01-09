@@ -5,7 +5,7 @@ const Book = require('../models/book');
 const router = express.Router();
 
 const GEMINI_API_URL =
-  `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.GEMINI_API_KEY}`;
+  'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
 
 
 router.post('/book-recommendation', async (req, res) => {
@@ -66,7 +66,7 @@ ${bookContext}
     }, {
       headers: {
         'Content-Type': 'application/json',
-        
+        'x-goog-api-key': process.env.GEMINI_API_KEY
       }
     });
 
@@ -114,7 +114,7 @@ router.post('/chat', async (req, res) => {
     }, {
       headers: {
         'Content-Type': 'application/json',
-        
+        'x-goog-api-key': process.env.GEMINI_API_KEY
       }
     });
 
